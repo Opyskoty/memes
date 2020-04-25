@@ -1,0 +1,52 @@
+body html {
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    background-color: teal;
+}
+
+.container {
+    background-color: #b1f1b4;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 60pt;
+    color: white;
+    text-shadow: -0.5px -0.5px 0 #17a2b8, -0.5px -0.5px 0 #17a2b8;
+}
+
+p {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: #17a2b8;
+    font-size: 16pt;
+}
+
+
+#addMemeForm {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: #17a2b8;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.remove {
+    background-color: transparent;
+    border-color: transparent;
+    color: thistle;
+    opacity: 0.5;
+    font-family: 'Fredoka One', cursive;
+}
+
+.remove:hover {
+    color: white;
+    opacity: 1;
+}

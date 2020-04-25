@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MemesMemesMemes!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+    <h1 class="text-center">Say it Like you Meme it</h1>
+    <p class="text-center"><b>Use the form below to create your own memes!</b></p>
+        </div>
+    <div class="row">
+        <div class="col-6" id="form">
+    <form id="addMemeForm">
+        <div class="form-group">
+            <label for="image">Image</label>
+            <input type="text" class="form-control" id="imageLink" placeholder="Enter the image URL">
+        </div>
+        <div class="form-group">
+            <label for="topText">Top Text</label>
+            <input type="text" class="form-control" id="topText" placeholder="Enter the text you want on the top of the meme">
+        </div>
+        <div class="form-group">
+            <label for="bottomText">Bottom Text</label>
+            <input type="text" class="form-control" id="bottomText" placeholder="Enter the text you want on the bottom of the meme">
+        </div>
+        <button type="submit" class="btn btn-outline-info"><b>Make a meme!</b></button>
+    </form>
+</div>
+<div class="col-6" id="memes">
+    <ul id="memeList">
+    </ul>
+</div>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
